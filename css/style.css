@@ -32,7 +32,7 @@ h1 {
 
 h2 {
     font-size: 28px;
-    font-weight: 700;
+    font-weight: 800;
 }
 
 p {
@@ -49,6 +49,7 @@ li{
 }
 
 .link-button {
+    display: inline-block;
     padding: 4px 18px;
     font-size: 14px;
     font-weight: 500;
@@ -200,7 +201,7 @@ header {
 
 .section2-display-box {
     position: relative;
-    padding: 280px 12%;
+    padding: 240px 12%;
 }
 
 .radio-button {
@@ -222,11 +223,87 @@ header {
  .section2-column {
      float: left;
      width: calc(100% / 3 - 10px);
- }
- 
- .buy-now-link a {
-     color: #0061ff;
-     text-decoration: underline;
-     font-weight: 600;
+     border: 1px solid lightgrey;
  }
 
+.column-top {
+    font-weight: 600;
+    border: 1px solid lightgrey;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+}
+
+.column-main {
+    padding: 24px;
+}
+
+.subscription-type {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.subscription-price {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 14px;
+}
+
+.subscription-duration {
+    font-size: 14px;
+    font-weight: 600;
+    color: #717f8c;
+    margin-top: 4px;
+    margin-bottom: 32px;
+}
+
+.column-description {
+    font-size: 14px;
+    margin-top: 18px;
+}
+
+.column-button-box {
+    width: 100%;
+    text-align: center;
+}
+
+.column-button {
+    margin: 30px auto;
+    padding-left: 28px;
+    padding-right: 28px;
+}
+
+.buy-now-link {
+    font-size: 14px;
+}
+
+.buy-now-link a {
+    color: #0061ff;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+.column-hr {
+    width: 30%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 1px;
+    background-color: lightgrey;
+    border: none;
+}
+
+.column-bottom-description-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 14px;
+}
+
+.column-bottom-description {
+    font-size: 14px;
+    margin-top: 14px;
+    font-weight: 500;
+}
+
+.fa-check {
+    color: #0061ff;
+}
