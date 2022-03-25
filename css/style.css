@@ -24,6 +24,11 @@ h1 {
     font-weight: 700;
 }
 
+h2 {
+    font-size: 28px;
+    font-weight: 700;
+}
+
 p {
     font-size: 14px;
     font-weight: 500;
@@ -135,7 +140,7 @@ header {
 }
 
 .section1-display-box {
-    padding: 100px;
+    padding: 100px 8%;
 }
 
 .section1-title-box {
@@ -175,3 +180,27 @@ header {
     width: 100%;
 }
 /* /section1 */
+
+/* section2 */
+.section2{
+    background-color: white;
+    min-height: 200px; /*debug*/
+    width: 100%;
+}
+
+.section2-display-box {
+    position: relative;
+    padding: 280px 12%;
+}
+
+.radio-button {
+    display: inline-block;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+
+ .radio-button-label {
+     display: inline-block;
+     margin-right: 20px;
+     font-size: 14px;
+ }
