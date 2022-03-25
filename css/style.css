@@ -20,6 +20,11 @@ body {
     clear: both;
 }
 
+.container-padding-12 {
+    padding-left: 12%;
+    padding-right: 12%;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -92,6 +97,7 @@ header {
     vertical-align: top;
     width: 70%;
     height: 100%;
+    overflow: auto;
 }
 
 .header-link-box-left {
@@ -192,55 +198,63 @@ header {
 }
 /* /section1-hero */
 
-/* section2 */
+/* section2 columns*/
 .section2{
     background-color: white;
-    min-height: 200px; /*debug*/
     width: 100%;
 }
 
 .section2-display-box {
     position: relative;
-    padding: 240px 12%;
+    padding-top: 240px;
 }
 
 .radio-button {
     display: inline-block;
-    margin-top: 40px;
-    margin-bottom: 60px;
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
 
- .radio-button-label {
-     display: inline-block;
-     margin-right: 20px;
-     font-size: 14px;
- }
+.radio-button-label {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 14px;
+}
 
- .section2-column-box {
-     border: 2px solid rgb(15, 184, 15); /*debug*/
- }
+.section2-column {
+    display: inline-block;
+    float: left;
+    width: calc(100% / 3 - 10px);
+    border: 1px solid lightgrey;
+    min-height: 800px;
+}
 
- .section2-column {
-     float: left;
-     width: calc(100% / 3 - 10px);
-     border: 1px solid lightgrey;
- }
+.section2-column-center {
+    margin: 0 15px;
+}
 
 .column-top {
     font-weight: 600;
-    border: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
     text-align: center;
     height: 40px;
     line-height: 40px;
+    font-size: 16px;
 }
 
 .column-main {
     padding: 24px;
+    overflow-x: auto;
 }
 
 .subscription-type {
     font-size: 24px;
     font-weight: 700;
+}
+
+.column-description {
+    font-size: 14px;
+    margin-top: 18px;
 }
 
 .subscription-price {
@@ -253,14 +267,10 @@ header {
     font-size: 14px;
     font-weight: 600;
     color: #717f8c;
-    margin-top: 4px;
+    margin-top: 6px;
     margin-bottom: 32px;
 }
 
-.column-description {
-    font-size: 14px;
-    margin-top: 18px;
-}
 
 .column-button-box {
     width: 100%;
@@ -307,3 +317,4 @@ header {
 .fa-check {
     color: #0061ff;
 }
+/* /section2 columns*/
