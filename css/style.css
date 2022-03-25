@@ -19,12 +19,22 @@ a {
     color: white;
 }
 
+h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+p {
+    font-size: 14px;
+    font-weight: 500;
+}
+
 .container {
     position: relative;
 }
 
 .link-button {
-    padding: 4px 16px;
+    padding: 4px 18px;
     font-size: 14px;
     font-weight: 500;
 }
@@ -38,6 +48,7 @@ header {
     height: 60px;
     background-color: white;
     width: 100%;
+    z-index: 10;
 }
 
 /* logo */
@@ -113,3 +124,54 @@ header {
     transform: translate(-50%, -50%);
 }
 /* /header-start-button */
+
+/* section1 */
+.section1 {
+    position: relative;
+    top: 60px;
+    left: 0;
+    background-color: #b4d0e7;
+    width: 100%;
+}
+
+.section1-display-box {
+    padding: 100px;
+}
+
+.section1-title-box {
+    margin-bottom: 30px;
+}
+
+.section1-paragraph-box {
+    display: inline-block;
+    width: 40%;
+}
+
+.section1-paragraph {
+    display: inline-block;
+    padding-bottom: 20px;
+}
+
+.section1-button {
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.fa-arrow-down {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.section1-img-box {
+    position: relative;
+    display: inline-block;
+    width: 60%;
+    vertical-align: top;
+    padding-left: 40px;
+}
+
+.section1-img {
+    position: absolute;
+    width: 100%;
+}
+/* /section1 */
