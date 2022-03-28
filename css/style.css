@@ -192,7 +192,8 @@ header {
 
 .section1-img {
     position: absolute;
-    width: 100%;
+    max-width: 100%;
+    max-height: 400px;
 }
 /* /section1-hero */
 
@@ -223,7 +224,8 @@ header {
     float: left;
     width: calc(100% / 3 - 10px);
     border: 1px solid lightgrey;
-    min-height: 800px;
+    height: 800px;
+    overflow: auto;
 }
 
 .section2-column-center {
@@ -252,6 +254,8 @@ header {
 .column-description {
     font-size: 14px;
     margin-top: 18px;
+    text-indent: -8px;
+    padding-left: 16px;
 }
 
 .subscription-price {
@@ -267,7 +271,6 @@ header {
     margin-top: 6px;
     margin-bottom: 32px;
 }
-
 
 .column-button-box {
     width: 100%;
@@ -309,6 +312,8 @@ header {
     font-size: 14px;
     margin-top: 14px;
     font-weight: 500;
+    text-indent: -8px;
+    padding-left: 16px;
 }
 
 .fa-check {
@@ -357,11 +362,54 @@ header {
 
 .post-text {
     font-size: 16px;
-    font-weight: 600;
     margin-top: 12px;
+}
+
+.section3-team-text {
+    font-weight: 600;
 }
 
 .section3-team-paragraph {
     font-size: 14px;
     margin-top: 12px;
 }
+/* /section3 team */
+
+/* section4 partner */
+.section4-partner {
+    height: 400px;
+    margin-top: 100px;
+}
+
+.section4-partner-img-box {
+    display: inline-block;
+    width: 50%;
+    text-align: center;
+}
+
+.section4-partner-img {
+    max-width: 100%;
+    max-height: 400px;
+}
+
+.section4-partner-text-box {
+    display: inline-block;
+    width: 50%;
+    padding-top: 30px;
+    padding-left: 30px;
+    vertical-align: top;
+}
+
+.post-text {
+    font-size: 14px;
+    margin-top: 30px;
+}
+
+.section4-partner-button {
+    color: black;
+    border: 1px solid black;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    box-shadow: 1px 1px grey;
+}
+/* /section4 partner */
