@@ -413,3 +413,27 @@ header {
     box-shadow: 1px 1px grey;
 }
 /* /section4 partner */
+
+/* section5 business */
+.section5-business {
+    margin-top: 60px;
+}
+
+.section5-row {
+    width: 100%;
+    margin-top: 40px;
+}
+
+.section5-box {
+    width: calc(100% / 3 - 30px);
+    float: left;
+}
+
+.section5-post-img {
+    max-width: 100%;
+}
+
+.section5-box-center {
+    margin: 0 30px;
+}
+/* /section5 business */
