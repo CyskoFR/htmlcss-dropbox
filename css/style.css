@@ -436,4 +436,131 @@ header {
 .section5-box-center {
     margin: 0 30px;
 }
+
+.section5-bottom-link-row {
+    margin-top: 100px;
+    width: 50%;
+}
+
+.section5-bottom-link {
+    display: inline-block;
+    color: #0061ff;
+    text-decoration: underline;
+    font-size: 14px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
 /* /section5 business */
+
+/* section6 color boxes */
+.section6-color-boxes-row {
+    width: 100%;
+}
+
+.section6-color-boxes-top-row {
+    width: 100%;
+    height: 300px;
+}
+
+.section6-split-box {
+    display: inline-block;
+    width: 30%;
+    height: 50%;
+    vertical-align: top;
+}
+
+.section6-split-box-section {
+    display: inline-block;
+    width: 50%;
+    height: 150px;
+    text-align: center;
+    vertical-align: top;
+    line-height: 150px;
+}
+
+.section6-split-box-left-section-top-left {
+    background-color: #a2d39b;
+}
+
+.section6-split-box-left-section-top-right {
+    background-color: #61082b;
+}
+
+.section6-split-box-left-section-bottom-left {
+    background-color: #0093ce;
+}
+
+.section6-split-box-left-section-bottom-right{
+    background-color: #ff1c1c;
+}
+
+.section6-split-box-right-section-top-left {
+    background-color: #d5001f;
+}
+
+.section6-split-box-right-section-top-right {
+    background-color: #b4d0e7;
+}
+
+.section6-split-box-right-section-bottom-left {
+    background-color: #0d2481;
+}
+
+.section6-split-box-right-section-bottom-right {
+    background-color: #ffd830;
+}
+
+.section6-split-box-img {
+    width: 50%;
+    filter: invert(1);
+    vertical-align: middle;
+}
+
+.section6-middle-box {
+    display: inline-block;
+    background-color: #f5f5f5;
+    width: 40%;
+    height: 100%;
+    padding: 30px 30px 40px;
+    overflow-x: auto;
+}
+
+.section6-middle-box-img {
+    height: 36px;
+}
+
+.section6-middle-box-hr {
+    width: 40px;
+    border: 1px solid lightgrey;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.section6-color-boxes-bottom-row {
+    background-color: #b4d0e7;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.section6-bottom-row-text-box {
+    display: inline-block;
+    width: 70%;
+    vertical-align: top;
+    color: #630f31;
+    padding-right: 120px;
+}
+
+.section6-bottom-row-button-box {
+    display: inline-block;
+    width: 30%;
+    vertical-align: top;
+    text-align: right;
+}
+
+.section6-bottom-row-button {
+    background-color: white;
+    color: black;
+    padding: 4px 32px;
+    text-align: center;
+}
+/* /section6 color boxes */
