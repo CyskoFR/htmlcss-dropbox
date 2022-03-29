@@ -598,3 +598,46 @@ header {
     padding-right: 20px;
 }
 /* /section7 questions */
+
+/*footer*/
+footer {
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    background-color: black;
+}
+
+.footer-col {
+    width: calc(100% / 5);
+    float: left;
+    color: white;
+}
+
+.footer-list-title {
+     font-size: 16px;
+     font-weight: 700;
+     margin-bottom: 16px;
+}
+
+.footer-list-content {
+    font-size: 12px;
+    margin-bottom: 6px;
+}
+
+.footer-hr {
+    display: inline-block;
+    width: 10%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: none;
+    height: 1px;
+    background-color: grey;
+}
+
+.footer-language-box {
+    color: lightgrey;
+    font-size: 14px;
+    font-weight: 100;
+}
